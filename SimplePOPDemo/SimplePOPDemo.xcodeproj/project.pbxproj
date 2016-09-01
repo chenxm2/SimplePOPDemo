@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47AC66D61D751D77001FD765 /* SimplePOP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47AC66D31D751CE2001FD765 /* SimplePOP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47EAF7BD1D6F15140087A599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EAF7BC1D6F15140087A599 /* AppDelegate.swift */; };
+		47EAF7BF1D6F15140087A599 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EAF7BE1D6F15140087A599 /* ViewController.swift */; };
+		47EAF7C21D6F15140087A599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EAF7C01D6F15140087A599 /* Main.storyboard */; };
+		47EAF7C41D6F15140087A599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EAF7C31D6F15140087A599 /* Assets.xcassets */; };
+		47EAF7C71D6F15140087A599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EAF7C51D6F15140087A599 /* LaunchScreen.storyboard */; };
+		47EAF7D21D6F15150087A599 /* SimplePOPDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EAF7D11D6F15150087A599 /* SimplePOPDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47AC66D21D751CE2001FD765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47AC66CC1D751CE2001FD765 /* SimplePOP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 47F53C7F1D6ED493003A8192;
+			remoteInfo = SimplePOP;
+		};
+		47AC66D41D751CE2001FD765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47AC66CC1D751CE2001FD765 /* SimplePOP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 47F53C891D6ED493003A8192;
+			remoteInfo = SimplePOPTests;
+		};
+		47AC66D71D751D8A001FD765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47AC66CC1D751CE2001FD765 /* SimplePOP.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F53C7E1D6ED493003A8192;
+			remoteInfo = SimplePOP;
+		};
+		47EAF7CE1D6F15150087A599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47EAF7B11D6F15140087A599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47EAF7B81D6F15140087A599;
+			remoteInfo = SimplePOPDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47EAF7ED1D6F16A70087A599 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				47AC66D61D751D77001FD765 /* SimplePOP.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		47AC66CC1D751CE2001FD765 /* SimplePOP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimplePOP.xcodeproj; path = SimplePOP/SimplePOP.xcodeproj; sourceTree = SOURCE_ROOT; };
+		47EAF7B91D6F15140087A599 /* SimplePOPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePOPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EAF7BC1D6F15140087A599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47EAF7BE1D6F15140087A599 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47EAF7C11D6F15140087A599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47EAF7C31D6F15140087A599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47EAF7C61D6F15140087A599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47EAF7C81D6F15140087A599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EAF7CD1D6F15150087A599 /* SimplePOPDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePOPDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EAF7D11D6F15150087A599 /* SimplePOPDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePOPDemoTests.swift; sourceTree = "<group>"; };
+		47EAF7D31D6F15150087A599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47EAF7B61D6F15140087A599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EAF7CA1D6F15150087A599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47AC66CD1D751CE2001FD765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47AC66D31D751CE2001FD765 /* SimplePOP.framework */,
+				47AC66D51D751CE2001FD765 /* SimplePOPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47EAF7B01D6F15140087A599 = {
+			isa = PBXGroup;
+			children = (
+				47EAF7BB1D6F15140087A599 /* SimplePOPDemo */,
+				47EAF7D01D6F15150087A599 /* SimplePOPDemoTests */,
+				47EAF7BA1D6F15140087A599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47EAF7BA1D6F15140087A599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47EAF7B91D6F15140087A599 /* SimplePOPDemo.app */,
+				47EAF7CD1D6F15150087A599 /* SimplePOPDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47EAF7BB1D6F15140087A599 /* SimplePOPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				47AC66CC1D751CE2001FD765 /* SimplePOP.xcodeproj */,
+				47EAF7BC1D6F15140087A599 /* AppDelegate.swift */,
+				47EAF7BE1D6F15140087A599 /* ViewController.swift */,
+				47EAF7C01D6F15140087A599 /* Main.storyboard */,
+				47EAF7C31D6F15140087A599 /* Assets.xcassets */,
+				47EAF7C51D6F15140087A599 /* LaunchScreen.storyboard */,
+				47EAF7C81D6F15140087A599 /* Info.plist */,
+			);
+			path = SimplePOPDemo;
+			sourceTree = "<group>";
+		};
+		47EAF7D01D6F15150087A599 /* SimplePOPDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				47EAF7D11D6F15150087A599 /* SimplePOPDemoTests.swift */,
+				47EAF7D31D6F15150087A599 /* Info.plist */,
+			);
+			path = SimplePOPDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47EAF7B81D6F15140087A599 /* SimplePOPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EAF7D61D6F15150087A599 /* Build configuration list for PBXNativeTarget "SimplePOPDemo" */;
+			buildPhases = (
+				47EAF7B51D6F15140087A599 /* Sources */,
+				47EAF7B61D6F15140087A599 /* Frameworks */,
+				47EAF7B71D6F15140087A599 /* Resources */,
+				47EAF7ED1D6F16A70087A599 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47AC66D81D751D8A001FD765 /* PBXTargetDependency */,
+			);
+			name = SimplePOPDemo;
+			productName = SimplePOPDemo;
+			productReference = 47EAF7B91D6F15140087A599 /* SimplePOPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47EAF7CC1D6F15150087A599 /* SimplePOPDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EAF7D91D6F15150087A599 /* Build configuration list for PBXNativeTarget "SimplePOPDemoTests" */;
+			buildPhases = (
+				47EAF7C91D6F15150087A599 /* Sources */,
+				47EAF7CA1D6F15150087A599 /* Frameworks */,
+				47EAF7CB1D6F15150087A599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47EAF7CF1D6F15150087A599 /* PBXTargetDependency */,
+			);
+			name = SimplePOPDemoTests;
+			productName = SimplePOPDemoTests;
+			productReference = 47EAF7CD1D6F15150087A599 /* SimplePOPDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47EAF7B11D6F15140087A599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xianmingchen;
+				TargetAttributes = {
+					47EAF7B81D6F15140087A599 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					47EAF7CC1D6F15150087A599 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 47EAF7B81D6F15140087A599;
+					};
+				};
+			};
+			buildConfigurationList = 47EAF7B41D6F15140087A599 /* Build configuration list for PBXProject "SimplePOPDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47EAF7B01D6F15140087A599;
+			productRefGroup = 47EAF7BA1D6F15140087A599 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 47AC66CD1D751CE2001FD765 /* Products */;
+					ProjectRef = 47AC66CC1D751CE2001FD765 /* SimplePOP.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				47EAF7B81D6F15140087A599 /* SimplePOPDemo */,
+				47EAF7CC1D6F15150087A599 /* SimplePOPDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		47AC66D31D751CE2001FD765 /* SimplePOP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SimplePOP.framework;
+			remoteRef = 47AC66D21D751CE2001FD765 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47AC66D51D751CE2001FD765 /* SimplePOPTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SimplePOPTests.xctest;
+			remoteRef = 47AC66D41D751CE2001FD765 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47EAF7B71D6F15140087A599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EAF7C71D6F15140087A599 /* LaunchScreen.storyboard in Resources */,
+				47EAF7C41D6F15140087A599 /* Assets.xcassets in Resources */,
+				47EAF7C21D6F15140087A599 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EAF7CB1D6F15150087A599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47EAF7B51D6F15140087A599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EAF7BF1D6F15140087A599 /* ViewController.swift in Sources */,
+				47EAF7BD1D6F15140087A599 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EAF7C91D6F15150087A599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EAF7D21D6F15150087A599 /* SimplePOPDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47AC66D81D751D8A001FD765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimplePOP;
+			targetProxy = 47AC66D71D751D8A001FD765 /* PBXContainerItemProxy */;
+		};
+		47EAF7CF1D6F15150087A599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47EAF7B81D6F15140087A599 /* SimplePOPDemo */;
+			targetProxy = 47EAF7CE1D6F15150087A599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47EAF7C01D6F15140087A599 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47EAF7C11D6F15140087A599 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47EAF7C51D6F15140087A599 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47EAF7C61D6F15140087A599 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47EAF7D41D6F15150087A599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47EAF7D51D6F15150087A599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47EAF7D71D6F15150087A599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SimplePOPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimplePOPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		47EAF7D81D6F15150087A599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SimplePOPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimplePOPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		47EAF7DA1D6F15150087A599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplePOPDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimplePOPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePOPDemo.app/SimplePOPDemo";
+			};
+			name = Debug;
+		};
+		47EAF7DB1D6F15150087A599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplePOPDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimplePOPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePOPDemo.app/SimplePOPDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47EAF7B41D6F15140087A599 /* Build configuration list for PBXProject "SimplePOPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EAF7D41D6F15150087A599 /* Debug */,
+				47EAF7D51D6F15150087A599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EAF7D61D6F15150087A599 /* Build configuration list for PBXNativeTarget "SimplePOPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EAF7D71D6F15150087A599 /* Debug */,
+				47EAF7D81D6F15150087A599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EAF7D91D6F15150087A599 /* Build configuration list for PBXNativeTarget "SimplePOPDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EAF7DA1D6F15150087A599 /* Debug */,
+				47EAF7DB1D6F15150087A599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47EAF7B11D6F15140087A599 /* Project object */;
+}
