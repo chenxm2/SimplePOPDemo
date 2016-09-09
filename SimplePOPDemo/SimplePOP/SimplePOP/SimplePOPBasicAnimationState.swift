@@ -19,7 +19,7 @@ class SimplePOPBasicAnimationState: SimplePOPPropertyAnimationState {
 
     var timingFunctionType : SimplePOPTimingFunctionType = .Liner
     override init (){
-        duration = 2
+        duration = 1
     }
     
     

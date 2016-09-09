@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let button = sender as! UIButton
         
         if (!button.selected) {
-            let animation : SimplePOPBasicAnimation = SimplePOPBasicAnimation.animationWithPropertyNamed("SimplePOPSimplePOPPosition")
+            let animation : SimplePOPBasicAnimation = SimplePOPBasicAnimation.animationWithPropertyNamed(kSimplePOPPosition)
             animation.formValue = self.animationView.layer.position
             var from = animation.formValue
             NSLog("%@, fromValue: %@", NSStringFromCGPoint(from!), #function)
